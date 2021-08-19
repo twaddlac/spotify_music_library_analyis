@@ -1,0 +1,13 @@
+# IPython notebook
+.ipynb_checkpoints
+.local
+.ipython
+.jupyter
+.cache/
+.ipynb_checkpoints/
+
+# Misc
+.DS_Store
+
+# Data
+# data/
