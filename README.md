@@ -1,4 +1,6 @@
 # Spotify Music Library Analysis
+
+Check out my blog post [here](https://medium.com/@twaddlac/751182d8c5cd)
 ## Motivation
 This repository was focused on analyzing [Spotify's audio features](https://developer.spotify.com/documentation/web-api/reference/#object-audiofeaturesobject) to identify what makes tracks and genres happy (or valent) with the hopes of being able to predict the valence for a track. To do this I have gathered data from a [Kaggle repository](https://www.kaggle.com/yamaerenay/spotify-dataset-19212020-160k-tracks) which is a complilation of Spotify library data for each track and genre in the US market.
 
