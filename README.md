@@ -3,10 +3,11 @@
 This repository was focused on analyzing [Spotify's audio features](https://developer.spotify.com/documentation/web-api/reference/#object-audiofeaturesobject) to identify what makes tracks and genres happy (or valent) with the hopes of being able to predict the valence for a track. To do this I have gathered data from a [Kaggle repository](https://www.kaggle.com/yamaerenay/spotify-dataset-19212020-160k-tracks) which is a complilation of Spotify library data for each track and genre in the US market.
 
 The questions I attempted to answer are:
-1. What factors influence happiness?
-2. What is the happiest kind of music?
-3. What are the happiest songs of all time?
-4. Can we predict what will make a song happy?
+1. How has music happiness changed over time?
+2. What factors influence happiness?
+3. What is the happiest kind of music?
+4. What are the happiest songs of all time?
+5. Can we predict what will make a song happy?
 
 ## Data 
 As mentioned, I have gathered data from a [Kaggle repository](https://www.kaggle.com/yamaerenay/spotify-dataset-19212020-160k-tracks) which has the following features:
