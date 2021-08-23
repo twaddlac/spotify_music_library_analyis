@@ -92,6 +92,32 @@ docker run -e JUPYTER_ENABLE_LAB=yes -p 8888:8888 -v "$PWD:/home/jovyan" -t  twa
 
 Alternatively you may download the image from [DockerHub](https://hub.docker.com/repository/docker/twaddlac/spotify_track_analysis).
 
+## Directory Structure
+.
+├── Dockerfile
+├── README.md
+├── Spotify\ Music\ Library\ Analysis.ipynb
+└── data
+    ├── Music\ Note\ Clip\ Art\ 3455.jpg
+    ├── figures # Save images here
+    │   ├── blog-post-featured-image.jpeg
+    │   ├── coefficient-distribution-per-feature.png
+    │   ├── genre-wordcloud.png
+    │   ├── track-acousticness-by-decade.jpeg
+    │   ├── track-valence-quinquennial-joyplot.jpeg
+    │   ├── track-valence-quinquennial-joyplot.png
+    │   ├── valence-by-.png
+    │   ├── valence-by-decade-violin.jpeg
+    │   ├── valence-by-decade.pdf
+    │   ├── valence-by-decade.png
+    │   ├── valence_by_super_genre.jpeg
+    │   └── valence_by_super_genre.png
+    ├── jolji_playlist_track_features.csv # happy playlist data
+    └── us_market # Kaggle Spotify data
+        ├── data_by_genres_o.csv.gz # Genre data
+        └── tracks.csv.gz # track data
+
+3 directories, 19 files
 
 ## Acknowledgements 
 I would like to thank Kaggle user [Yamac Eren Ay](https://www.kaggle.com/yamaerenay) for gathering the data and [Spotify](https://www.spotify.com/us/) for their amazing annotation to their library!
